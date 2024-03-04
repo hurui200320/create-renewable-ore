@@ -1,0 +1,55 @@
+{
+	"type": "create:crushing",
+	"ingredients": [
+		{
+			"tag" : "minecraft:sand"
+		}
+	],
+	"results": [
+		{
+			"item": "minecraft:sand",
+			"count": 1,
+			"chance": 0.60
+		},
+		{
+			"item": "create:crushed_raw_iron",
+			"count": 1,
+			"chance": 0.02
+		},
+		{
+			"item": "create:crushed_raw_copper",
+			"count": 1,
+			"chance": 0.02
+		},
+		{
+			"item": "create:crushed_raw_zinc",
+			"count": 1,
+			"chance": 0.01
+		},
+		{
+			"item": "create:crushed_raw_gold",
+			"count": 1,
+			"chance": 0.01
+		},
+		{
+			"item": "minecraft:glowstone_dust",
+			"count": 1,
+			"chance": 0.005
+		},
+		{
+			"item": "minecraft:redstone",
+			"count": 1,
+			"chance": 0.005
+		},
+		{
+			"item": "minecraft:lapis_lazuli",
+			"count": 1,
+			"chance": 0.001
+		},
+		{
+			"item": "minecraft:amethyst_shard",
+			"count": 1,
+			"chance": 0.001
+		}
+	]
+}
