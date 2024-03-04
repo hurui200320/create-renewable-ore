@@ -32,11 +32,6 @@
 			"chance": 0.01
 		},
 		{
-			"item": "minecraft:glowstone_dust",
-			"count": 1,
-			"chance": 0.005
-		},
-		{
 			"item": "minecraft:redstone",
 			"count": 1,
 			"chance": 0.005
@@ -44,7 +39,7 @@
 		{
 			"item": "minecraft:lapis_lazuli",
 			"count": 1,
-			"chance": 0.001
+			"chance": 0.005
 		},
 		{
 			"item": "minecraft:amethyst_shard",

@@ -28,9 +28,8 @@ When crushing one sand:
 + 2% chance you will get a crushed raw copper
 + 1% chance you will get a crushed raw zinc
 + 1% chance you will get a crushed raw gold
-+ 0.5% chance you will get a  glowstone dust
 + 0.5% chance you will get a redstone dust
-+ 0.1% chance you will get a lapis
++ 0.5% chance you will get a lapis
 + 0.1% chance you will get a amethyst shard
 
 ### `crush_coal_for_diamond`
@@ -39,9 +38,8 @@ Crush coal and charcoal can make you diamond with very low chance. This was orig
 
 When crushing one coal (marked as "tag:minecraft:coals"):
 
++ 10% chance you will get a coal
 + 0.1% chance you will get a diamond
-
-Considering this is a pretty OP feature, I stick with the high consumption recipe.
 
 In real life, you need high pressure and extreme heat to make diamond. But in create, you get pressure from pressing, but heat can only come from the mixing. Mixing support multiple ingredients but mixing coals for diamond is kinda unreal. So I choose the pressing. But pressing is buggy, so I switched to crushing. The theory is that when crushing coal, some point you get high pressure and heat from friction thus you make diamond.
 
