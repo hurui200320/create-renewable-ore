@@ -1,7 +1,7 @@
 # create-renewable-ore
 A datapack add recipes that allows you to get ores from renewable resources.
 
-Currently tested: 1.20.1
+Currently tested: 1.20.1 Forge
 
 ## Brief
 
@@ -11,39 +11,65 @@ This data pack is inspired by [ilmango's ATFC series](https://www.youtube.com/wa
 
 Clone the project, remove the `-master` suffix and place the folder into your world's `datapacks` folder.
 
+You need Create mod and Biomes O' Plenty mod.
+
 ## Added recipes
 
-All recipes are create mod only, which means all you need is the create mod.
+The recipes need items from Create mod and Biomes O' Plenty mod. Here is an overview of the flowchart:
 
-### `crush_sand_for_ore`
+![flowchart drawio](https://github.com/hurui200320/create-renewable-ore/assets/8587572/e6591820-17c7-4909-9858-deb6e932e4ae)
 
-Crush any kind of sand (including other mod's sand as long as they mark the item as `tag:minecraft:sand`) and you can get almost all of the vanilla ores, plus the zinc ore from create mod.
+The black line means the recipe is already in game. The blue line is the newly added one.
 
-When crushing one sand:
+There are total 7 new recipes and everything is made to be renewable and automated:
 
-+ 60% chance you will get the vanilla sand back, no matter what kind of sand you put in
-  + by the meaning of "crush", you will get the purest sand after crushing, thus you get the vanilla sand no matter what you put in
-  + also I don't know how to return the item you put in so I came up this explanation.
-+ 2% chance you will get a crushed raw iron
-+ 2% chance you will get a crushed raw copper
-+ 1% chance you will get a crushed raw zinc
-+ 1% chance you will get a crushed raw gold
-+ 0.5% chance you will get a redstone dust
-+ 0.5% chance you will get a lapis
-+ 0.1% chance you will get a amethyst shard
+### Crush sand for ores
 
-### `crush_coal_for_diamond`
+Some ores are hard to design, so I just use sand for them. There are already a sand washing recipe in the game,
+so all I left is crushing. By crushing any sand:
 
-Crush coal and charcoal can make you diamond with very low chance. This was originally designed for press, but when testing, when pressing the last item in the stack the game always crash. So I changed the type to crush.
++ 7% chance to get a copper nugget
++ 7% chance to get a zinc nugget
++ 5% chance to get a lapis
++ 5% chance to get a amethyst shard
++ otherwise the sand is consumed
 
-When crushing one coal (marked as "tag:minecraft:coals"):
+### Press charcoal for coal
 
-+ 10% chance you will get a coal
-+ 0.1% chance you will get a diamond
+By pressing charcoal, you can turn it into coal. Why? Because...
 
-In real life, you need high pressure and extreme heat to make diamond. But in create, you get pressure from pressing, but heat can only come from the mixing. Mixing support multiple ingredients but mixing coals for diamond is kinda unreal. So I choose the pressing. But pressing is buggy, so I switched to crushing. The theory is that when crushing coal, some point you get high pressure and heat from friction thus you make diamond.
+### Press coal block for diamond
 
-At least that's the best I can get. Contributions are welcome.
+Because you need coal block to get diamond. Each time you press a coal block, you have 2% chance to get a diamond.
+Otherwise the charcoal block is consumed.
+
+### Mix blood and cobbelstone for crimsite
+
+Pronous flesh and blood are added by Biomes O' Plenty to the nether.
+There is a stone called Crimsite added by Create mod and can be crushed into irons and eventually get redstone.
+I designed a way to create this type of stone from blood and cobbelstone.
+
+Mixing 1 cobbelstone and 250mBucket blood will give you 1 crimsite back. One bucket of blood is 1000mBucket.
+
+### Mix pronous flesh and water for blood
+
+When the blood touches the water, it will generate a pronous flesh. Just like a cobbelstone generator.
+So you can get unlimited pronous flesh. Then you can mix it with 1 bucket of water to get 1 bucket of blood.
+
+Now you get infinite blood!
+
+### Heat pronous flesh for nether rack
+
+I was thinking about how to get ancient debris, I thought it was too OP if I added it. But I actually mine using baritone so it's already OP.
+
+To get ancient debris, you have to get something related to nether. The most common block in nether is of course
+the nether rack.
+
+By heating the pronous flesh and wait 10 seconds, you will get a netherrack.
+
+### Wash nether rack for ancient debris
+
+By washing the nether rack, you have a very low chance (0.1%) to get one ancient debris.
 
 ## Other Minecraft version
 
