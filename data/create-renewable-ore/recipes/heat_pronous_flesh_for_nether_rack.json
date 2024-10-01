@@ -1,10 +1,9 @@
 {
     "type": "minecraft:smelting",
     "ingredient": [
-		{
-			"item": "biomesoplenty:porous_flesh",
-            "count": 1
-		}
-	],
-	"result": "minecraft:netherrack"
+        {
+            "item": "biomesoplenty:porous_flesh"
+        }
+    ],
+    "result": "minecraft:netherrack"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "create:splashing",
-	"ingredients": [
-		{
-			"item" : "minecraft:netherrack"
-		}
-	],
-	"results": [
-		{
-			"item": "minecraft:ancient_debris",
-			"count": 1,
-			"chance": 0.001
-		}
-	]
+    "type": "create:splashing",
+    "ingredients": [
+        {
+            "item" : "minecraft:netherrack"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:ancient_debris",
+            "count": 1,
+            "chance": 0.0001
+        }
+    ]
 }

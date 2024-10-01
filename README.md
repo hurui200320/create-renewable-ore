@@ -28,19 +28,20 @@ There are total 7 new recipes and everything is made to be renewable and automat
 Some ores are hard to design, so I just use sand for them. There are already a sand washing recipe in the game,
 so all I left is crushing. By crushing any sand:
 
-+ 7% chance to get a copper nugget
-+ 7% chance to get a zinc nugget
-+ 5% chance to get a lapis
-+ 5% chance to get a amethyst shard
++ 0.8% chance to get a copper nugget (average 2 stack per item)
++ 1.1% chance to get a zinc nugget (average 1.5 stack per item)
++ 0.4% chance to get a lapis (average 4 stack per item)
++ 0.2% chance to get a amethyst shard (average 8 stack per item)
 + otherwise the sand is consumed
 
 ### Press charcoal for coal
 
-By pressing charcoal, you can turn it into coal. Why? Because...
+By pressing charcoal, you can turn it into coal with a 15% chance, average 1 stack per item.
 
 ### Press coal block for diamond
 
-Because you need coal block to get diamond. Each time you press a coal block, you have 2% chance to get a diamond.
+Because you need coal block to get diamond. Each time you press a coal block, you have 0.05% chance to get a diamond.
+Average 32 stack per item.
 Otherwise the charcoal block is consumed.
 
 ### Mix blood and cobbelstone for crimsite
@@ -69,7 +70,7 @@ By heating the pronous flesh and wait 10 seconds, you will get a netherrack.
 
 ### Wash nether rack for ancient debris
 
-By washing the nether rack, you have a very low chance (0.1%) to get one ancient debris.
+By washing the nether rack, you have a very low chance (0.01%, average 157 stack per item) to get one ancient debris.
 
 ## Other Minecraft version
 

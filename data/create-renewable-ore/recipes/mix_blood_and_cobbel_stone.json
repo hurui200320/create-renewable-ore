@@ -1,19 +1,19 @@
 {
     "type": "create:mixing",
     "ingredients": [
-		{
-			"item": "minecraft:cobblestone",
+        {
+            "item": "minecraft:cobblestone",
             "count": 1
-		},
+        },
         {
             "fluid": "biomesoplenty:blood",
             "amount": 250
-		}
-	],
-	"results": [
-		{
-			"item": "create:crimsite",
-			"count": 1
-		}
-	]
+        }
+    ],
+    "results": [
+        {
+            "item": "create:crimsite",
+            "count": 1
+        }
+    ]
 }
